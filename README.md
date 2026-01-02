@@ -20,6 +20,22 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Authentication Flow
+
+Before you can view your profile or access protected pages, you are required to:
+
+Sign Up — Create an account where your user credentials will be stored via cookies.
+
+Login — Use your registered credentials to log in.
+
+Once logged in, you will be able to view your profile.
+
+## Rendering
+
+Just doing await cookies() and redirect() inside the component means Next.js renders it fresh on every request on the server. So, the componentts using these properties are SSR.
+
+As all the other pages have static data, they will be SSG.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

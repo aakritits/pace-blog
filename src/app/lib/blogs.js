@@ -1,0 +1,51 @@
+export const blogs = [
+  {
+    id: 1,
+    slug: 'the-beauty-of-minimalism-in-modern-living',
+    title: 'The Beauty of Minimalism in Modern Living',
+    excerpt: 'Exploring how simplicity and neutral tones can transform your everyday spaces into serene, elegant havens.',
+    date: 'December 15, 2025',
+    imageUrl: 'https://thumbs.dreamstime.com/b/minimalist-scandinavian-living-room-soft-neutral-tones-stylish-furniture-warm-textures-cozy-elegant-modern-home-interior-371388407.jpg',
+  },
+  {
+    id: 2,
+    slug: 'a-productive-morning-routine',
+    title: 'A Productive Morning Routine',
+    excerpt: 'Start your day with intention: coffee, journaling, and focused work in a calm, inspiring environment.',
+    date: 'December 10, 2025',
+    imageUrl: 'https://thumbs.dreamstime.com/b/minimalist-white-office-desk-workspace-laptop-notebook-pen-glasses-cup-coffee-plants-arranged-neatly-modern-simple-aesthetic-357554916.jpg',
+  },
+  {
+    id: 3,
+    slug: 'finding-peace-in-nature',
+    title: 'Finding Peace in Nature',
+    excerpt: 'The therapeutic power of serene landscapes and how minimalist photography captures true elegance.',
+    date: 'December 5, 2025',
+    imageUrl: 'https://thumbs.dreamstime.com/b/immerse-yourself-tranquil-beauty-serene-lake-reflected-minimalist-black-white-landscape-captivating-350730303.jpg',
+  },
+  {
+    id: 4,
+    slug: 'timeless-elegance-in-fashion',
+    title: 'Timeless Elegance in Fashion',
+    excerpt: 'Embracing minimalist style for a sophisticated, effortless wardrobe that stands the test of time.',
+    date: 'November 28, 2025',
+    imageUrl: 'https://img.freepik.com/free-photo/fashion-portrait-young-elegant-woman_1328-2744.jpg?semt=ais_hybrid&w=740&q=80',
+  },
+  {
+    id: 5,
+    slug: 'abstract-art-and-inner-harmony',
+    title: 'Abstract Art and Inner Harmony',
+    excerpt: 'How neutral-toned abstract pieces bring balance, sophistication, and calm to any modern interior.',
+    date: 'November 20, 2025',
+    imageUrl: 'https://m.media-amazon.com/images/I/71FPPB46TLL._AC_UF894,1000_QL80_.jpg',
+  },
+  {
+    id: 6,
+    slug: 'urban-architecture-form-meets-function',
+    title: 'Urban Architecture: Form Meets Function',
+    excerpt: 'Discovering the classy interplay of modern design in city skylines and iconic buildings.',
+    date: 'November 12, 2025',
+    imageUrl: 'https://www.architecturecourses.org/sites/default/files/2025-07/new-york-architecture-empire-chrysler.png',
+  },
+  
+];
