@@ -34,7 +34,9 @@ Once logged in, you will be able to view your profile.
 
 Just doing await cookies() and redirect() inside the component means Next.js renders it fresh on every request on the server. So, the componentts using these properties are SSR.
 
-As all the other pages have static data, they will be SSG.
+Because blogs is static (local import), Next.js pre-renders this page at build time — SSG.
+
+This means the HTML will be generated once at build time, perfect for static content like blogs.
 
 ## Learn More
 
